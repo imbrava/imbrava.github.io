@@ -1,0 +1,109 @@
+:root {
+    --main-font-family: "Lato", sans-serif;
+    --main-bg-color: #f7f8fa;
+    --main-text-color: #233463;
+    --mlight-blue: #1bd59a;
+}
+
+body {
+    background-image: url("../img/bgtop.png"), url("../img/bg.png");
+    background-repeat: no-repeat, repeat;
+    font-family: var(--main-font-family);
+    color: var(--main-text-color);
+}
+
+.mtop {
+    margin-top: 100px;
+}
+
+.dots {
+    font-size: 1em;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.mtop-sm {
+    margin-top: 30px;
+}
+
+.mtop-md {
+    margin-top: 80px;
+}
+
+.mtop-bi {
+    margin-top: 200px;
+}
+
+.mbot-sm {
+    margin-bottom: 50px;
+}
+
+.fbig {
+    font-size: 1.3em;
+}
+
+.tace {
+    text-align: center;
+}
+
+.vertext {
+    display: inline-flex;
+    vertical-align: middle !important;
+}
+
+.mti {
+    font-size: 2em;
+    font-weight: 600;
+    text-shadow: gray;
+}
+
+.ce {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+
+a {
+    color: var(--main-text-color);
+    cursor: pointer;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:-webkit-any-link {
+    color: var(--main-text-color);
+    cursor: pointer;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.title {
+    font-size: 2em;
+    font-weight: 700;
+    font-family: var(--main-font-family);
+    -webkit-font-smoothing: antialiased;
+    -font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-light-green {
+    background-color: var(--mlight-blue);
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.bg-light-green:hover {
+    background-color: #36d874;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.lead {
+    margin-bottom: 50px;
+    font-size: 1.25rem;
+    font-weight: 300;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+}
